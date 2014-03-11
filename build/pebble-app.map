@@ -1,7 +1,7 @@
 Archive member included because of file (symbol)
 
 /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                              src/TVOWatchface.c.8.o (app_event_loop)
+                              src/TVOWatchface.c.8.o (accel_tap_service_subscribe)
 
 Discarded input sections
 
@@ -31,10 +31,6 @@ Discarded input sections
  .text.accel_service_set_samples_per_update
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.accel_service_set_sampling_rate
-                0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
- .text.accel_tap_service_subscribe
-                0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
- .text.accel_tap_service_unsubscribe
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.action_bar_layer_add_to_window
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
@@ -86,8 +82,6 @@ Discarded input sections
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.app_message_deregister_callbacks
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
- .text.app_message_open
-                0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.app_sync_deinit
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.app_sync_get
@@ -97,8 +91,6 @@ Discarded input sections
  .text.app_sync_set
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.app_timer_cancel
-                0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
- .text.app_timer_register
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.app_timer_reschedule
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
@@ -142,8 +134,6 @@ Discarded input sections
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.dict_calc_buffer_size_from_tuplets
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
- .text.dict_find
-                0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.dict_merge
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.dict_read_begin_from_buffer
@@ -164,8 +154,6 @@ Discarded input sections
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.dict_write_data
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
- .text.dict_write_end
-                0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.dict_write_int
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.dict_write_int16
@@ -173,8 +161,6 @@ Discarded input sections
  .text.dict_write_int32
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.dict_write_int8
-                0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
- .text.dict_write_tuplet
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.dict_write_uint16
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
@@ -285,8 +271,6 @@ Discarded input sections
  .text.layer_set_clips
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.layer_set_frame
-                0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
- .text.layer_set_hidden
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.layer_set_update_proc
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
@@ -510,15 +494,9 @@ Discarded input sections
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.app_message_inbox_size_maximum
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
- .text.app_message_outbox_begin
-                0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
- .text.app_message_outbox_send
-                0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.app_message_outbox_size_maximum
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.app_message_register_inbox_dropped
-                0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
- .text.app_message_register_inbox_received
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  .text.app_message_register_outbox_failed
                 0x0000000000000000        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
@@ -593,7 +571,7 @@ LOAD /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/arm-cs-tools/bin/../lib/gcc/ar
  .pbl_header    0x0000000000000000       0x82 appinfo.auto.c.8.o
                 0x0000000000000000                __pbl_app_info
 
-.text           0x0000000000000084      0x434
+.text           0x0000000000000084      0x6c5
  *(.text)
  .text          0x0000000000000084       0x14 /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
  *(.text.*)
@@ -608,168 +586,214 @@ LOAD /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/arm-cs-tools/bin/../lib/gcc/ar
                 0x00000000000000a0       0x44 src/TVOWatchface.c.8.o
  .text.minute_tick_handler
                 0x00000000000000e4        0x4 src/TVOWatchface.c.8.o
+ .text.app_message_received_handler
+                0x00000000000000e8       0x3c src/TVOWatchface.c.8.o
+ .text.app_timer_handler
+                0x0000000000000124       0x30 src/TVOWatchface.c.8.o
+ .text.tap_handler
+                0x0000000000000154       0x5c src/TVOWatchface.c.8.o
  .text.window_unload
-                0x00000000000000e8       0x10 src/TVOWatchface.c.8.o
+                0x00000000000001b0       0x24 src/TVOWatchface.c.8.o
  .text.window_load
-                0x00000000000000f8       0xd0 src/TVOWatchface.c.8.o
+                0x00000000000001d4      0x1b0 src/TVOWatchface.c.8.o
  .text.click_config_provider
-                0x00000000000001c8       0x30 src/TVOWatchface.c.8.o
+                0x0000000000000384       0x30 src/TVOWatchface.c.8.o
  .text.startup.main
-                0x00000000000001f8       0xd0 src/TVOWatchface.c.8.o
-                0x00000000000001f8                main
+                0x00000000000003b4      0x100 src/TVOWatchface.c.8.o
+                0x00000000000003b4                main
+ .text.accel_tap_service_subscribe
+                0x00000000000004b4        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000004b4                accel_tap_service_subscribe
+ .text.accel_tap_service_unsubscribe
+                0x00000000000004c0        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000004c0                accel_tap_service_unsubscribe
  .text.app_event_loop
-                0x00000000000002c8        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x00000000000002c8                app_event_loop
- .text.app_log  0x00000000000002d4        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x00000000000002d4                app_log
+                0x00000000000004cc        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000004cc                app_event_loop
+ .text.app_log  0x00000000000004d8        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000004d8                app_log
+ .text.app_message_open
+                0x00000000000004e4        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000004e4                app_message_open
+ .text.app_timer_register
+                0x00000000000004f0        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000004f0                app_timer_register
  .text.bitmap_layer_create
-                0x00000000000002e0        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x00000000000002e0                bitmap_layer_create
+                0x00000000000004fc        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000004fc                bitmap_layer_create
  .text.bitmap_layer_destroy
-                0x00000000000002ec        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x00000000000002ec                bitmap_layer_destroy
+                0x0000000000000508        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000508                bitmap_layer_destroy
  .text.bitmap_layer_get_layer
-                0x00000000000002f8        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x00000000000002f8                bitmap_layer_get_layer
+                0x0000000000000514        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000514                bitmap_layer_get_layer
  .text.bitmap_layer_set_bitmap
-                0x0000000000000304        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x0000000000000304                bitmap_layer_set_bitmap
+                0x0000000000000520        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000520                bitmap_layer_set_bitmap
  .text.clock_is_24h_style
-                0x0000000000000310        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x0000000000000310                clock_is_24h_style
+                0x000000000000052c        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x000000000000052c                clock_is_24h_style
+ .text.dict_find
+                0x0000000000000538        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000538                dict_find
+ .text.dict_write_end
+                0x0000000000000544        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000544                dict_write_end
+ .text.dict_write_tuplet
+                0x0000000000000550        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000550                dict_write_tuplet
  .text.fonts_get_system_font
-                0x000000000000031c        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x000000000000031c                fonts_get_system_font
+                0x000000000000055c        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x000000000000055c                fonts_get_system_font
  .text.gbitmap_create_with_resource
-                0x0000000000000328        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x0000000000000328                gbitmap_create_with_resource
+                0x0000000000000568        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000568                gbitmap_create_with_resource
  .text.gbitmap_destroy
-                0x0000000000000334        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x0000000000000334                gbitmap_destroy
+                0x0000000000000574        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000574                gbitmap_destroy
  .text.layer_add_child
-                0x0000000000000340        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x0000000000000340                layer_add_child
+                0x0000000000000580        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000580                layer_add_child
  .text.layer_get_bounds
-                0x000000000000034c        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x000000000000034c                layer_get_bounds
+                0x000000000000058c        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x000000000000058c                layer_get_bounds
  .text.layer_get_frame
-                0x0000000000000358        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x0000000000000358                layer_get_frame
+                0x0000000000000598        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000598                layer_get_frame
+ .text.layer_set_hidden
+                0x00000000000005a4        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000005a4                layer_set_hidden
  .text.localtime
-                0x0000000000000364        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x0000000000000364                localtime
- .text.memset   0x0000000000000370        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x0000000000000370                memset
+                0x00000000000005b0        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000005b0                localtime
+ .text.memset   0x00000000000005bc        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000005bc                memset
  .text.strftime
-                0x000000000000037c        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x000000000000037c                strftime
+                0x00000000000005c8        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000005c8                strftime
  .text.text_layer_create
-                0x0000000000000388        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x0000000000000388                text_layer_create
+                0x00000000000005d4        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000005d4                text_layer_create
  .text.text_layer_destroy
-                0x0000000000000394        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x0000000000000394                text_layer_destroy
+                0x00000000000005e0        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000005e0                text_layer_destroy
  .text.text_layer_get_layer
-                0x00000000000003a0        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x00000000000003a0                text_layer_get_layer
+                0x00000000000005ec        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000005ec                text_layer_get_layer
  .text.text_layer_set_background_color
-                0x00000000000003ac        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x00000000000003ac                text_layer_set_background_color
+                0x00000000000005f8        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000005f8                text_layer_set_background_color
  .text.text_layer_set_font
-                0x00000000000003b8        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x00000000000003b8                text_layer_set_font
+                0x0000000000000604        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000604                text_layer_set_font
  .text.text_layer_set_text
-                0x00000000000003c4        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x00000000000003c4                text_layer_set_text
+                0x0000000000000610        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000610                text_layer_set_text
  .text.text_layer_set_text_alignment
-                0x00000000000003d0        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x00000000000003d0                text_layer_set_text_alignment
+                0x000000000000061c        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x000000000000061c                text_layer_set_text_alignment
  .text.text_layer_set_text_color
-                0x00000000000003dc        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x00000000000003dc                text_layer_set_text_color
+                0x0000000000000628        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000628                text_layer_set_text_color
  .text.tick_timer_service_subscribe
-                0x00000000000003e8        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x00000000000003e8                tick_timer_service_subscribe
- .text.time     0x00000000000003f4        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x00000000000003f4                time
+                0x0000000000000634        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000634                tick_timer_service_subscribe
+ .text.time     0x0000000000000640        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000640                time
  .text.window_create
-                0x0000000000000400        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x0000000000000400                window_create
+                0x000000000000064c        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x000000000000064c                window_create
  .text.window_destroy
-                0x000000000000040c        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x000000000000040c                window_destroy
+                0x0000000000000658        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000658                window_destroy
  .text.window_get_root_layer
-                0x0000000000000418        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x0000000000000418                window_get_root_layer
+                0x0000000000000664        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000664                window_get_root_layer
  .text.window_set_click_config_provider
-                0x0000000000000424        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x0000000000000424                window_set_click_config_provider
+                0x0000000000000670        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000670                window_set_click_config_provider
  .text.window_set_window_handlers
-                0x0000000000000430        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x0000000000000430                window_set_window_handlers
+                0x000000000000067c        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x000000000000067c                window_set_window_handlers
  .text.window_stack_push
-                0x000000000000043c        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x000000000000043c                window_stack_push
+                0x0000000000000688        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000688                window_stack_push
+ .text.app_message_outbox_begin
+                0x0000000000000694        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x0000000000000694                app_message_outbox_begin
+ .text.app_message_outbox_send
+                0x00000000000006a0        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000006a0                app_message_outbox_send
+ .text.app_message_register_inbox_received
+                0x00000000000006ac        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000006ac                app_message_register_inbox_received
  .text.window_single_click_subscribe
-                0x0000000000000448        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
-                0x0000000000000448                window_single_click_subscribe
+                0x00000000000006b8        0xc /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+                0x00000000000006b8                window_single_click_subscribe
  *(.rodata)
+ .rodata        0x00000000000006c4       0x10 src/TVOWatchface.c.8.o
  *(.rodata*)
  .rodata.str1.1
-                0x0000000000000454       0x64 src/TVOWatchface.c.8.o
+                0x00000000000006d4       0x75 src/TVOWatchface.c.8.o
+                                         0x79 (size before relaxing)
 
-.glue_7         0x00000000000004b8        0x0
+.glue_7         0x000000000000074c        0x0
  .glue_7        0x0000000000000000        0x0 linker stubs
 
-.glue_7t        0x00000000000004b8        0x0
+.glue_7t        0x000000000000074c        0x0
  .glue_7t       0x0000000000000000        0x0 linker stubs
 
-.vfp11_veneer   0x00000000000004b8        0x0
+.vfp11_veneer   0x000000000000074c        0x0
  .vfp11_veneer  0x0000000000000000        0x0 linker stubs
 
-.v4_bx          0x00000000000004b8        0x0
+.v4_bx          0x000000000000074c        0x0
  .v4_bx         0x0000000000000000        0x0 linker stubs
 
-.iplt           0x00000000000004b8        0x0
+.iplt           0x000000000000074c        0x0
  .iplt          0x0000000000000000        0x0 /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.rel.dyn        0x00000000000004b8        0x0
+.rel.dyn        0x000000000000074c        0x0
  .rel.iplt      0x0000000000000000        0x0 /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.data           0x00000000000004b8        0xd
+.data           0x000000000000074c        0xd
  *(.data)
- .data          0x00000000000004b8        0x0 /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
- .data          0x00000000000004b8        0x4 /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
-                0x00000000000004b8                __dso_handle
- .data          0x00000000000004bc        0x0 src/TVOWatchface.c.8.o
- .data          0x00000000000004bc        0x0 appinfo.auto.c.8.o
- .data          0x00000000000004bc        0x0 /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
- .data          0x00000000000004bc        0x0 /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
- .data          0x00000000000004bc        0x0 /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .data          0x000000000000074c        0x0 /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .data          0x000000000000074c        0x4 /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x000000000000074c                __dso_handle
+ .data          0x0000000000000750        0x0 src/TVOWatchface.c.8.o
+ .data          0x0000000000000750        0x0 appinfo.auto.c.8.o
+ .data          0x0000000000000750        0x0 /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/Pebble/lib/libpebble.a(tmpziGGmipebble.o)
+ .data          0x0000000000000750        0x0 /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .data          0x0000000000000750        0x0 /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
  *(.data.*)
- .data.time_text.6430
-                0x00000000000004bc        0x9 src/TVOWatchface.c.8.o
+ .data.time_text.6450
+                0x0000000000000750        0x9 src/TVOWatchface.c.8.o
 
-.igot.plt       0x00000000000004c8        0x0
+.igot.plt       0x000000000000075c        0x0
  .igot.plt      0x0000000000000000        0x0 /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.bss            0x00000000000004c8       0x10
+.bss            0x000000000000075c       0x1c
  *(.bss)
  *(.bss.*)
  .bss.text_layer
-                0x00000000000004c8        0x4 src/TVOWatchface.c.8.o
+                0x000000000000075c        0x4 src/TVOWatchface.c.8.o
+ .bss.now_playing_text_layer
+                0x0000000000000760        0x4 src/TVOWatchface.c.8.o
  .bss.background
-                0x00000000000004cc        0x4 src/TVOWatchface.c.8.o
+                0x0000000000000764        0x4 src/TVOWatchface.c.8.o
  .bss.background_layer
-                0x00000000000004d0        0x4 src/TVOWatchface.c.8.o
- .bss.window    0x00000000000004d4        0x4 src/TVOWatchface.c.8.o
+                0x0000000000000768        0x4 src/TVOWatchface.c.8.o
+ .bss.timer     0x000000000000076c        0x4 src/TVOWatchface.c.8.o
+ .bss.show_title_text_layer
+                0x0000000000000770        0x4 src/TVOWatchface.c.8.o
+ .bss.window    0x0000000000000774        0x4 src/TVOWatchface.c.8.o
 
 DISCARD
  libc.a(*)
  libm.a(*)
  libgcc.a(*)
  *(.eh_frame)
-OUTPUT(/Users/pmcmonagle/Desktop/TVOWatchface/build/pebble-app.elf elf32-littlearm)
+OUTPUT(/Users/pmcmonagle/Git/_GITHUB/tvowatchface/build/pebble-app.elf elf32-littlearm)
 
 .ARM.attributes
                 0x0000000000000000       0x27
@@ -795,35 +819,35 @@ OUTPUT(/Users/pmcmonagle/Desktop/TVOWatchface/build/pebble-app.elf elf32-littlea
  .comment       0x0000000000000000       0x4f appinfo.auto.c.8.o
  .comment       0x0000000000000000       0x4f /Users/pmcmonagle/pebble-dev/PebbleSDK-2.0.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
 
-.debug_info     0x0000000000000000     0x1138
- .debug_info    0x0000000000000000      0xde9 src/TVOWatchface.c.8.o
- .debug_info    0x0000000000000de9      0x34f appinfo.auto.c.8.o
+.debug_info     0x0000000000000000     0x19bb
+ .debug_info    0x0000000000000000     0x166c src/TVOWatchface.c.8.o
+ .debug_info    0x000000000000166c      0x34f appinfo.auto.c.8.o
 
-.debug_abbrev   0x0000000000000000      0x3c4
- .debug_abbrev  0x0000000000000000      0x319 src/TVOWatchface.c.8.o
- .debug_abbrev  0x0000000000000319       0xab appinfo.auto.c.8.o
+.debug_abbrev   0x0000000000000000      0x3f5
+ .debug_abbrev  0x0000000000000000      0x34a src/TVOWatchface.c.8.o
+ .debug_abbrev  0x000000000000034a       0xab appinfo.auto.c.8.o
 
-.debug_loc      0x0000000000000000      0x197
- .debug_loc     0x0000000000000000      0x197 src/TVOWatchface.c.8.o
+.debug_loc      0x0000000000000000      0x2e9
+ .debug_loc     0x0000000000000000      0x2e9 src/TVOWatchface.c.8.o
 
-.debug_aranges  0x0000000000000000       0x78
+.debug_aranges  0x0000000000000000       0x90
  .debug_aranges
-                0x0000000000000000       0x60 src/TVOWatchface.c.8.o
+                0x0000000000000000       0x78 src/TVOWatchface.c.8.o
  .debug_aranges
-                0x0000000000000060       0x18 appinfo.auto.c.8.o
+                0x0000000000000078       0x18 appinfo.auto.c.8.o
 
-.debug_ranges   0x0000000000000000       0x50
- .debug_ranges  0x0000000000000000       0x50 src/TVOWatchface.c.8.o
+.debug_ranges   0x0000000000000000       0x98
+ .debug_ranges  0x0000000000000000       0x98 src/TVOWatchface.c.8.o
 
-.debug_line     0x0000000000000000      0x45f
- .debug_line    0x0000000000000000      0x339 src/TVOWatchface.c.8.o
- .debug_line    0x0000000000000339      0x126 appinfo.auto.c.8.o
+.debug_line     0x0000000000000000      0x4cd
+ .debug_line    0x0000000000000000      0x3a7 src/TVOWatchface.c.8.o
+ .debug_line    0x00000000000003a7      0x126 appinfo.auto.c.8.o
 
-.debug_str      0x0000000000000000      0x937
- .debug_str     0x0000000000000000      0x75f src/TVOWatchface.c.8.o
-                                        0x7f2 (size before relaxing)
- .debug_str     0x000000000000075f      0x1d8 appinfo.auto.c.8.o
-                                        0x310 (size before relaxing)
+.debug_str      0x0000000000000000      0xdbe
+ .debug_str     0x0000000000000000      0xbe6 src/TVOWatchface.c.8.o
+                                        0xcaf (size before relaxing)
+ .debug_str     0x0000000000000be6      0x1d8 appinfo.auto.c.8.o
+                                        0x314 (size before relaxing)
 
-.debug_frame    0x0000000000000000       0xd4
- .debug_frame   0x0000000000000000       0xd4 src/TVOWatchface.c.8.o
+.debug_frame    0x0000000000000000      0x130
+ .debug_frame   0x0000000000000000      0x130 src/TVOWatchface.c.8.o
